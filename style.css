@@ -1,0 +1,41 @@
+*{
+    top: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.preview{
+    width: 500px;
+    border: 5px dashed white;
+    display: block;
+    height: 500px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;;
+    font-size: 28px;
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    position: relative;;
+
+}
+.preview i{
+    font-size: 50px;
+}
+.preview img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+.error{
+    font-size: 30px;
+    color: white;
+}
